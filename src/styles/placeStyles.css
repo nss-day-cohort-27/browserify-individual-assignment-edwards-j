@@ -21,6 +21,13 @@ button {
 #placeList {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    justify-content: center
 }
 
+@media screen and (max-width: 768px) {
+    .place {
+        width: 100%;
+        margin: 1em;
+    }
+}
