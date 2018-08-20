@@ -1,0 +1,26 @@
+h3 {
+    margin-top: 0
+}
+
+.place {
+    border: 5px double #2B2F0C;
+    padding: 1em;
+    margin: .25em;
+    width: 30%;
+    border-radius: 20px
+}
+
+.place h3 {
+    color: #E38031
+}
+
+button {
+    background-color: #F5B854;
+}
+
+#placeList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+

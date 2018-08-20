@@ -1,0 +1,18 @@
+@import "placeStyles.css";
+
+* {
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+    background-color: #FEFDCE;
+    color: #2F3827
+}
+
+fieldset {
+    border: 5px double #F5B854;
+    width: 300px;
+    margin: auto;
+}
+
+legend {
+    text-align: center
+}
