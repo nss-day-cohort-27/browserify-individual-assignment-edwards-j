@@ -16,3 +16,16 @@ fieldset {
 legend {
     text-align: center
 }
+
+input {
+    border: none;
+    border-bottom: none;
+    transition: all .3s
+}
+
+
+input:focus {
+    transform: scale(1.1);
+    outline: none;
+    border-bottom: 1px solid gray;
+}
