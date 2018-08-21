@@ -41,5 +41,4 @@ const placeForm = () => {
             })
     })
 }
-
 module.exports = placeForm
